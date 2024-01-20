@@ -1,3 +1,5 @@
+//follow notes if you any changes here 
+
 plugins {
     id "com.android.application"
     id "kotlin-android"
