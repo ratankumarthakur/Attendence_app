@@ -1,5 +1,7 @@
+//all the changes if any is written in notes copy(nothing extra/different)
+
 buildscript {
-    ext.kotlin_version = '1.9.22'
+    ext.kotlin_version = '1.9.22'         //newer version(always use latest version)
     repositories {
         google()
         mavenCentral()
