@@ -37,18 +37,18 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_core:
   cloud_firestore:
-  intl:
+  intl:            //required for formating time in our manner
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: "^0.13.1"
+  flutter_launcher_icons: "^0.13.1"  //required to set an app icon ,also the code lines below are required for it
 
 flutter_launcher_icons:
   android: true
   ios: true
   image_path: "assets/img.png"
-  min_sdk_android: 21 # android min sdk min:16, default 21
+  min_sdk_android: 21 
   web:
     generate: true
     image_path: "assets/img.png"
